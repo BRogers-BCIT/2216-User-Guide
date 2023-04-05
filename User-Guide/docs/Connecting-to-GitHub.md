@@ -28,13 +28,14 @@ Prior to connecting your account to your JetBrains IDE you will need:
     &emsp;&emsp;&emsp;![JetBrains](img/linking%201.png)
 
     !!! info
-    &emsp;**You should now see the either project navigation screen, or your last open project.**
 
-    &emsp;&emsp;![Project Selection](img/linking%202.png)
+        &emsp;**You should now see the either project navigation screen, or your last open project.**
 
-    &emsp;&emsp;![Open Project](img/linking%203.png)
+        &emsp;&emsp;![Project Selection](img/linking%202.png)
 
-    &emsp; **The following instructions will work from either of these locations.**
+        &emsp;&emsp;![Open Project](img/linking%203.png)
+
+        &emsp; **The following instructions will work from either of these locations.**
 
 ### &emsp;Navigate to version control settings
 
@@ -49,9 +50,10 @@ Prior to connecting your account to your JetBrains IDE you will need:
     &emsp;&emsp;&emsp;![Version Control Settings](img/linking%205.png)
 
     !!! warning
-    &emsp;**If you cannot see the version control option, Type _“version control”_ in the search bar to limit the available options.**
 
-    &emsp;&emsp;&emsp;![Search "Version Control"](img/linking%206.png)
+        &emsp;**If you cannot see the version control option, Type _“version control”_ in the search bar to limit the available options.**
+
+        &emsp;&emsp;&emsp;![Search "Version Control"](img/linking%206.png)
 
     ✅ You should now see the options for the version control settings.
 
@@ -77,13 +79,13 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
     !!!question "**Chose your preferred login option.**"
 
-    * &emsp;**For _"Log in via GitHub"_ continue with [_Log in with GitHub_](#log-in-through-github)**
+        * &emsp;**For _"Log in via GitHub"_ continue with [_Log in with GitHub_](#log-in-through-github)**
 
-    &emsp;&emsp;&emsp;![Log In GitHub](img/linking%2011.png)
+        &emsp;&emsp;&emsp;![Log In GitHub](img/linking%2011.png)
 
-    * &emsp;**For _“Log in with Token”_ continue with [_Log in through a GitHub Token_](#log-in-through-a-github-token)**
+        * &emsp;**For _“Log in with Token”_ continue with [_Log in through a GitHub Token_](#log-in-through-a-github-token)**
 
-    &emsp;&emsp;&emsp;![Log In Token](img/linking%2019.png)
+        &emsp;&emsp;&emsp;![Log In Token](img/linking%2019.png)
 
 ### &emsp;Log in through GitHub
 
@@ -100,9 +102,10 @@ Prior to connecting your account to your JetBrains IDE you will need:
     &emsp;&emsp;&emsp;![Authorize in GitHub](img/linking%2013.png)
 
     !!! info
-    **If your GitHub account is already linked to JetBrains website you will be prompted to return to your IDE.**
 
-    * &emsp;**If so, skip to step 4.**
+        **If your GitHub account is already linked to JetBrains website you will be prompted to return to your IDE.**
+
+        * &emsp;**If so, skip to step 4.**
 
     ✅ You should now see a GitHub login page.
 
