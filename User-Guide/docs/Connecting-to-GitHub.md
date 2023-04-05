@@ -40,8 +40,9 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 2. ℹ️ Press _**ctrl** + **alt** + **s**_  to open the settings menu of the IDE.
 
-    * ✅ You should now see the settings menu for the IDE.  
-    * ![Settings menu](img/linking%204.png)
+    ✅ You should now see the settings menu for the IDE.
+
+    ![Settings menu](img/linking%204.png)
 
 3. ℹ️ Click the version control tab on the left of the screen to open the version control settings options.
 
@@ -54,25 +55,25 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ### &emsp;Connect IDE to GitHub account
 
-* ✅ You should now see the options for the version control settings.
+✅ You should now see the options for the version control settings.
 
-* ![Version Control Menu](img/linking%207.png)
+![Version Control Menu](img/linking%207.png)
 
-    4. ℹ️ Click on the GitHub option
+4. ℹ️ Click on the GitHub option
 
     &emsp;&emsp;&emsp;![Github Version Control Settings](img/linking%208.png)
 
-* ✅ You should now see a menu containing any linked GitHub accounts and three buttons in the top left corner.
+✅ You should now see a menu containing any linked GitHub accounts and three buttons in the top left corner.
 
-* ![GitHub Settings Menu](img/linking%209.png)
+![GitHub Settings Menu](img/linking%209.png)
 
-    5. ℹ️ Click the plus button to link a new account.
+5. ℹ️ Click the plus button to link a new account.
 
     &emsp;&emsp;&emsp;![Add Account Button](img/linking%2010.png)
 
-* ✅ You should see two connection choices : _“Log in via GitHub”_ or _“Log in with Token”_
+✅ You should see two connection choices : _“Log in via GitHub”_ or _“Log in with Token”_
 
-* ![Log In Choices](img/linking%2010.5.png)
+![Log In Choices](img/linking%2010.5.png)
 
 !!!question "**Chose your preferred login option.**"
 
@@ -86,11 +87,11 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ### &emsp;Log in through GitHub
 
-* ✅ You should be taken to a JetBrains page and prompted to Authorize in GitHub.
+✅ You should be taken to a JetBrains page and prompted to Authorize in GitHub.
 
-* ![JetBrains Authorization Page](img/linking%2012.png)
+![JetBrains Authorization Page](img/linking%2012.png)
 
-    6. ℹ️ Click the “Authorize in GitHub” button to continue.
+6. ℹ️ Click the “Authorize in GitHub” button to continue.
 
     &emsp;&emsp;&emsp;![Authorize in GitHub](img/linking%2013.png)
 
@@ -99,19 +100,19 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
     * &emsp;**If so, skip to step 4.**
 
-* ✅ You should now see a GitHub login page.
+✅ You should now see a GitHub login page.
 
-* ![GitHub Log in](img/linking%2014.png)
+![GitHub Log in](img/linking%2014.png)
 
-    7. ℹ️ Enter your GitHub log in and select Sign in.
+7. ℹ️ Enter your GitHub log in and select Sign in.
 
     &emsp;&emsp;&emsp;![Sign in](img/linking%2015.png)
 
-* ✅ You should be returned to a JetBrains page and promoted to return to your IDE
+✅ You should be returned to a JetBrains page and promoted to return to your IDE
 
-* ![Successful Sign in](img/linking%2016.png)
+![Successful Sign in](img/linking%2016.png)
 
-    8. ℹ️ Return to your IDE and [**Confirm the account is connected**](#confirm-the-account-is-connected).
+8. ℹ️ Return to your IDE and [**Confirm the account is connected**](#confirm-the-account-is-connected).
 
     &emsp;&emsp;&emsp;![Connected Account](img/linking%2017.png)
 
@@ -121,9 +122,9 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
     &emsp;&emsp;&emsp;![Log in with Token](img/linking%2019.png)
 
-    * ✅ You should now see the server set to “github.com” and the option to enter your token.
+✅ You should now see the server set to “github.com” and the option to enter your token.
 
-    * ![Enter Token Field](img/linking%2020.png)
+![Enter Token Field](img/linking%2020.png)
 
 10. ℹ️ Enter your GitHub login token and select add account.
 
@@ -131,11 +132,11 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ### &emsp;Confirm the account is connected
 
-* ✅ You should now see your GitHub account within the IDE’s Version Control > GitHub section.
+✅ You should now see your GitHub account within the IDE’s Version Control > GitHub section.
 
-* ![Connected Account](img/linking%2018.png)
+![Connected Account](img/linking%2018.png)
 
-* 👍 Congratulations! Your GitHub is now linked to your JetBrains IDE.
+👍 Congratulations! Your GitHub is now linked to your JetBrains IDE.
 
 ### Success
 
