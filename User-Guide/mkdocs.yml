@@ -1,7 +1,7 @@
 site_name: Beginners Guide to GitHub and JetBrains IDEs
 site_url: 
 
-repo_url: https://github.com/BRogers-BCIT/Beginners-Guide-to-GitHub-and-JetBrains-IDEs
+repo_url: https://github.com/BRogers-BCIT/2216-User-Guide
 
 repo_name: BRogers-BCIT/Beginners Guide to GitHub and JetBrains IDEs
 
@@ -62,7 +62,7 @@ extra:
   # Link to GitHub
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/BRogers-BCIT/Beginners-Guide-to-GitHub-and-JetBrains-IDEs
+      link: https://github.com/BRogers-BCIT/2216-User-Guide
       name: GitHub
 
 # Maker credit
