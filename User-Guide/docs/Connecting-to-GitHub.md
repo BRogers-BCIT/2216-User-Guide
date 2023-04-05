@@ -41,8 +41,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 2. ℹ️ Press _**ctrl** + **alt** + **s**_  to open the settings menu of the IDE.
 
 &emsp;&emsp;✅ You should now see the settings menu for the IDE.
-
-&emsp;&emsp;&emsp;![Settings menu](../docs/img/linking%204.png)
+![Settings menu](../docs/img/linking%204.png)
 
 3. ℹ️ Click the version control tab on the left of the screen to open the version control settings options.
 
