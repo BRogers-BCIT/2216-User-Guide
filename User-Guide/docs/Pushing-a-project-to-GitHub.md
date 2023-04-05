@@ -23,61 +23,61 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 1. ℹ️ Open the project you wish to push.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%201.png)
+    &emsp;&emsp;&emsp;![Select PRoject](../docs/img/pushing%201.png)
 
-2. ✅ You should now have the project you wish to push open.
+✅ You should now have the project you wish to push open.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%202.png)
+    &emsp;&emsp;&emsp;![Open Project](../docs/img/pushing%202.png)
 
-3. ℹ️ Select the VCS option from the top menu.
+2. ℹ️ Select the VCS option from the top menu.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%203.png)
+    &emsp;&emsp;&emsp;![Project Top Menu](../docs/img/pushing%203.png)
 
-4. ✅ You should see the options available for version control for the project.
+✅ You should see the options available for version control for the project.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%204.png)
+    &emsp;&emsp;&emsp;![JetBrains](../docs/img/pushing%204.png)
 
-5. ℹ️ Select Share Project on GitHub.
+3. ℹ️ Select Share Project on GitHub.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%205.png)
+    &emsp;&emsp;&emsp;![Share Project](../docs/img/pushing%205.png)
 
-6. ✅ You should see a menu with name your new repository and add a description.
+✅ You should see a menu with name your new repository and add a description.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%206.png)
+    &emsp;&emsp;&emsp;![Share Project TAb](../docs/img/pushing%206.png)
 
 !!! alert
     **If there is no GitHub account linked to the IDE then there will be an option to “Share By” along the bottom.**
 
-    &emsp;&emsp;![JetBrains](/docs/img/pushing%207.png)
+    &emsp;&emsp;![Share By Option](../docs/img/pushing%207.png)
 
     ** To see how to link a GitHub account, check out:**
 
     * [**Connecting a GitHub account to your JetBrains IDE**](Connecting-to-GitHub.md)
 
-7. ℹ️ Enter the name of the repository and a description of the project, then select share.
+4. ℹ️ Enter the name of the repository and a description of the project, then select share.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%208.png)
+    &emsp;&emsp;&emsp;![Filled Share Menu](../docs/img/pushing%208.png)
 
-8. ✅You should be prompted to select the files you want to push to the repository.
+✅You should be prompted to select the files you want to push to the repository.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%209.png)
+    &emsp;&emsp;&emsp;![Select Files](../docs/img/pushing%209.png)
 
-9. ℹ️ Select the files to push and click Add.
+5. ℹ️ Select the files to push and click Add.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%2010.png)
+    &emsp;&emsp;&emsp;![Share Files](../docs/img/pushing%2010.png)
 
-10. ✅ You should see a small alert saying “Shared project successfully on GitHub”
+✅ You should see a small alert saying “Shared project successfully on GitHub”
 with a link with the repositories name.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%2011.png)
+    &emsp;&emsp;&emsp;![Share Project Pop-Up](../docs/img/pushing%2011.png)
 
-11. ℹ️ Click on the link to be taken to the new repository.
+6. ℹ️ Click on the link to be taken to the new repository.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%2012.png)
+    &emsp;&emsp;&emsp;![New Repository Link](../docs/img/pushing%2012.png)
 
-12. 👍  Congratulations! You have successfully made a new GitHub repository and pushed your project to GitHub.
+👍  Congratulations! You have successfully made a new GitHub repository and pushed your project to GitHub.
 
-    &emsp;&emsp;&emsp;![JetBrains](/docs/img/pushing%2013.png)
+    &emsp;&emsp;&emsp;![New Repository](../docs/img/pushing%2013.png)
 
 ### Success
 
