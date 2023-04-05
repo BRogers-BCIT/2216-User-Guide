@@ -43,7 +43,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
     ✅ You should now see the settings menu for the IDE.
 
-    ![Settings menu](img/linking%204.png)
+        ![Settings menu](img/linking%204.png)
 
 3. ℹ️ Click the version control tab on the left of the screen to open the version control settings options.
 
@@ -139,11 +139,15 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ### &emsp;Confirm the account is connected
 
-* ✅ You should now see your GitHub account within the IDE’s Version Control > GitHub section.
+11. ℹ️ Go to the GitHub section of version control menu.
 
-* ![Connected Account](img/linking%2018.png)
+    &emsp;&emsp;&emsp;![Connected Account](img/linking%2017.png)
 
-* 👍 Congratulations! Your GitHub is now linked to your JetBrains IDE.
+    ✅ You should now see your GitHub account within the IDE’s Version Control > GitHub section.
+
+    ![Connected Account](img/linking%2018.png)
+
+    👍 Congratulations! Your GitHub is now linked to your JetBrains IDE.
 
 ### Success
 
