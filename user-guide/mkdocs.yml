@@ -1,0 +1,69 @@
+site_name: Beginners Guide to GitHub and JetBrains IDEs
+site_url: 
+
+repo_url: https://github.com/BRogers-BCIT/Beginners-Guide-to-GitHub-and-JetBrains-IDEs
+
+repo_name: BRogers-BCIT/Beginners Guide to GitHub and JetBrains IDEs
+
+nav:
+    - Overview: index.md
+    - Connecting to GitHub: Connecting-to-GitHub.md
+    - Pushing a project to GitHub: Pushing-a-project-to-GitHub.md
+    - Cloning a GitHub project: Cloning-a-GitHub-project.md
+    - Glossary: Glossary.md
+    - Trouble Shooting: TroubleShooting.md
+    
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: material
+
+  features:
+    # - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+
+  # Search function setup
+  include_search_page: false
+  search_index_only: true
+
+# Css file if needed
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  # Link to GitHub
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/BRogers-BCIT/Beginners-Guide-to-GitHub-and-JetBrains-IDEs
+      name: GitHub
+
+# Maker credit
+copyright: Made by Charmin Jung & Braden Rogers
