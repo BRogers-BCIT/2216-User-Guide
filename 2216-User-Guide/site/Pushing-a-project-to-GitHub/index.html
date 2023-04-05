@@ -9,13 +9,17 @@
       
       
       
+        <link rel="prev" href="../Connecting-to-GitHub/">
+      
+      
+        <link rel="next" href="../Cloning-a-GitHub-project/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.5">
     
     
       
-        <title>Cloning a GitHub project to your IDE - Beginners Guide to GitHub and JetBrains IDEs</title>
+        <title>Pushing a project to GitHub - Beginners Guide to GitHub and JetBrains IDEs</title>
       
     
     
@@ -69,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cloning-a-github-project-to-your-ide" class="md-skip">
+        <a href="#pushing-a-project-to-a-new-github-repository" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cloning a GitHub project to your IDE
+              Pushing a project to GitHub
             
           </span>
         </div>
@@ -264,11 +268,99 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Pushing-a-project-to-GitHub/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Pushing a project to GitHub
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Pushing a project to GitHub
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#goals" class="md-nav__link">
+    &emsp; Goals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    &emsp; Prerequisites
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pushing-a-project-to-github" class="md-nav__link">
+    Pushing a project to GitHub
+  </a>
+  
+    <nav class="md-nav" aria-label="Pushing a project to GitHub">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#success" class="md-nav__link">
+    Success
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -281,7 +373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../pages/Cloning-a-GitHub-project.md" class="md-nav__link">
+      <a href="../Cloning-a-GitHub-project/" class="md-nav__link">
         Cloning a GitHub project
       </a>
     </li>
@@ -336,11 +428,15 @@
   
 
 
-<h1 id="cloning-a-github-project-to-your-ide">Cloning a GitHub project to your IDE</h1>
+<h1 id="pushing-a-project-to-a-new-github-repository">Pushing a project to a new GitHub repository</h1>
 <h2 id="overview">Overview</h2>
-<p>This part of the guide will walk you through how to clone an existing GitHub project into your IDE. This will give you the opportunity to ensure that your IDE projects are connected and saved in one spot. To follow the steps in this guide you will need a GitHub account to be linked to your JetBrains IDE.  </p>
+<p>This part of the guide will walk you through how to take an existing project and push it to your GitHub account in a new repository. This will ensure that all your projects are saved an organized in one spot. To follow the steps in this guide you will need a GitHub account to be linked to your JetBrains IDE.<br />
+If you have not linked you account yet you can find instructions here:</p>
+<ul>
+<li><a href="../Connecting-to-GitHub/"><strong>Connecting a GitHub account to your JetBrains IDE</strong></a></li>
+</ul>
 <h3 id="goals">&emsp; Goals</h3>
-<p>By the end of this guide you will have cloned an Existing Github Project into your IDE. This skill works with any existing github projects which is necessary.</p>
+<p>By the end of this guide you will have taken a project from your JetBrains IDE and pushed it to a new GitHub repository. You will be able to go to your GitHub and see the files that you pushed contained within a new repository in your account.</p>
 <h3 id="prerequisites">&emsp; Prerequisites</h3>
 <p>Prior to connecting your account to your JetBrains IDE you will need:  </p>
 <ul>
@@ -348,44 +444,80 @@
 <li><strong>A JetBrains IDE (Intellij, CLion, Pycharm, etc.)</strong></li>
 <li><strong>Your GitHub account to be connected to your JetBrains IDE</strong></li>
 </ul>
-<h2 id="cloning-a-project-into-ide">Cloning a Project into IDE</h2>
+<h2 id="pushing-a-project-to-github">Pushing a project to GitHub</h2>
 <ol>
-<li>ℹ️  Click on the VCS button on the top menu</li>
+<li>
+<p>ℹ️ Open the project you wish to push.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%201.png" /></p>
+</li>
+<li>
+<p>✅ You should now have the project you wish to push open.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%202.png" /></p>
+</li>
+<li>
+<p>ℹ️ Select the VCS option from the top menu.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%203.png" /></p>
+</li>
+<li>
+<p>✅ You should see the options available for version control for the project.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%204.png" /></p>
+</li>
+<li>
+<p>ℹ️ Select Share Project on GitHub.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%205.png" /></p>
+</li>
+<li>
+<p>✅ You should see a menu with name your new repository and add a description.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%206.png" /></p>
+</li>
 </ol>
-<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/Clone1.png" /></p>
-<ol>
-<li>✅ A menu should now appear providing you a list of option</li>
-</ol>
-<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/Clone6.png" /></p>
-<ol>
-<li>ℹ️  Click on the Get from Version Control option on the menu</li>
-</ol>
-<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/Clone2.png" /></p>
-<ol>
-<li>✅ A new tab of menu, related to GitHub, should now appear</li>
-</ol>
-<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/Clone7.png" /></p>
-<ol>
-<li>ℹ️  Click on the Github button on the side menu</li>
-</ol>
-<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/Clone4.png" /></p>
-<ol>
-<li>ℹ️  Click on any of the existing projects that is displayed in the list of projects</li>
-</ol>
-<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/Clone3.png" /></p>
 <div class="admonition alert">
 <p class="admonition-title">Alert</p>
-<p>&emsp;<strong>If you cannot see any projects avaible then you have to log in and follow step 5 under the Title "Connect IDE to GitHub account".</strong></p>
-<p>&emsp;&emsp;&emsp;<img alt="Search &quot;Version Control&quot;" src="/docs/img/linking%2011.png" /> </p>
-<p>Direct to (Connecting-to-GitHub.md) for more help</p>
+<p><strong>If there is no GitHub account linked to the IDE then there will be an option to “Share By” along the bottom.</strong></p>
+<p>&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%207.png" /></p>
+<p><strong> To see how to link a GitHub account, check out:</strong></p>
+<ul>
+<li><a href="../Connecting-to-GitHub/"><strong>Connecting a GitHub account to your JetBrains IDE</strong></a></li>
+</ul>
 </div>
 <ol>
-<li>ℹ️  Click on the Clone button (bottom right corner)</li>
+<li>
+<p>ℹ️ Enter the name of the repository and a description of the project, then select share.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%208.png" /></p>
+</li>
+<li>
+<p>✅You should be prompted to select the files you want to push to the repository.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%209.png" /></p>
+</li>
+<li>
+<p>ℹ️ Select the files to push and click Add.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%2010.png" /></p>
+</li>
+<li>
+<p>✅ You should see a small alert saying “Shared project successfully on GitHub”
+with a link with the repositories name.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%2011.png" /></p>
+</li>
+<li>
+<p>ℹ️ Click on the link to be taken to the new repository.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%2012.png" /></p>
+</li>
+<li>
+<p>👍  Congratulations! You have successfully made a new GitHub repository and pushed your project to GitHub.</p>
+<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/pushing%2013.png" /></p>
+</li>
 </ol>
-<p>&emsp;&emsp;&emsp;<img alt="JetBrains" src="/docs/img/Clone5.png" /></p>
-<ol>
-<li>👍 Congratulations! You just cloned a project and now you have the skills to do it in the future!</li>
-</ol>
+<h3 id="success">Success</h3>
+<p>Now that you know how to push a project into a GitHub repository you can easily push all your old projects to one GitHub account. Having all your work together on GitHub makes it easy to find old code and makes sure nothing ever gets lost.<br />
+If you want to know how to take projects from GitHub and clone them to your computer check out guide:</p>
+<ul>
+<li><a href="../Cloning-a-GitHub-project/"><strong>Cloning a GitHub project to your IDE</strong></a></li>
+</ul>
+<h3 id="troubleshooting">Troubleshooting</h3>
+<p>In the event that you encountered any difficulties when following our guide, the troubleshooting section of our guide contains explanations and solutions for common issues.</p>
+<ul>
+<li><a href="../TroubleShooting/"><strong>Troubleshooting</strong></a></li>
+</ul>
 
 
 
