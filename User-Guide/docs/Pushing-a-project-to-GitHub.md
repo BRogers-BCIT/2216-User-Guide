@@ -27,7 +27,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ✅ You should now have the project you wish to push open.
 
-    &emsp;&emsp;&emsp;![Open Project](../docs/img/pushing%202.png)
+![Open Project](../docs/img/pushing%202.png)
 
 2. ℹ️ Select the VCS option from the top menu.
 
@@ -35,7 +35,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ✅ You should see the options available for version control for the project.
 
-    &emsp;&emsp;&emsp;![JetBrains](../docs/img/pushing%204.png)
+![JetBrains](../docs/img/pushing%204.png)
 
 3. ℹ️ Select Share Project on GitHub.
 
@@ -43,7 +43,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ✅ You should see a menu with name your new repository and add a description.
 
-    &emsp;&emsp;&emsp;![Share Project TAb](../docs/img/pushing%206.png)
+![Share Project TAb](../docs/img/pushing%206.png)
 
 !!! alert
     **If there is no GitHub account linked to the IDE then there will be an option to “Share By” along the bottom.**
@@ -60,7 +60,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ✅You should be prompted to select the files you want to push to the repository.
 
-    &emsp;&emsp;&emsp;![Select Files](../docs/img/pushing%209.png)
+ ![Select Files](../docs/img/pushing%209.png)
 
 5. ℹ️ Select the files to push and click Add.
 
@@ -69,7 +69,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 ✅ You should see a small alert saying “Shared project successfully on GitHub”
 with a link with the repositories name.
 
-    &emsp;&emsp;&emsp;![Share Project Pop-Up](../docs/img/pushing%2011.png)
+![Share Project Pop-Up](../docs/img/pushing%2011.png)
 
 6. ℹ️ Click on the link to be taken to the new repository.
 
@@ -77,7 +77,7 @@ with a link with the repositories name.
 
 👍  Congratulations! You have successfully made a new GitHub repository and pushed your project to GitHub.
 
-    &emsp;&emsp;&emsp;![New Repository](../docs/img/pushing%2013.png)
+![New Repository](../docs/img/pushing%2013.png)
 
 ### Success
 
