@@ -23,11 +23,11 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 1. ℹ️ Open the project you wish to push.
 
-    &emsp;&emsp;&emsp;![Select PRoject](../docs/img/pushing%201.png)
+    &emsp;&emsp;&emsp;![Select Project](docs/img/pushing%201.png)
 
 ✅ You should now have the project you wish to push open.
 
-![Open Project](../docs/img/pushing%202.png)
+![Open Project](docs/img/pushing%202.png)
 
 2. ℹ️ Select the VCS option from the top menu.
 
@@ -43,7 +43,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 ✅ You should see a menu with name your new repository and add a description.
 
-![Share Project TAb](../docs/img/pushing%206.png)
+![Share Project Tab](../docs/img/pushing%206.png)
 
 !!! alert
     **If there is no GitHub account linked to the IDE then there will be an option to “Share By” along the bottom.**
