@@ -34,7 +34,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
     &emsp;&emsp;![Open Project](../docs/img/linking%203.png)
 
-     &emsp; **The following instructions will work from either of these locations.**
+    &emsp; **The following instructions will work from either of these locations.**
 
 ### &emsp;Navigate to version control settings
 
