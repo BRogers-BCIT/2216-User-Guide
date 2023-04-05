@@ -23,7 +23,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 1. ℹ️ Open the project you wish to push.
 
-    &emsp;&emsp;&emsp;![Select Project](docs/img/pushing%201.png)
+    &emsp;&emsp;&emsp;![Select Project](img/pushing%201.png)
 
 ✅ You should now have the project you wish to push open.
 
@@ -31,7 +31,7 @@ Prior to connecting your account to your JetBrains IDE you will need:
 
 2. ℹ️ Select the VCS option from the top menu.
 
-    &emsp;&emsp;&emsp;![Project Top Menu](../docs/img/pushing%203.png)
+    &emsp;&emsp;&emsp;![Project Top Menu](img/pushing%203.png)
 
 ✅ You should see the options available for version control for the project.
 
