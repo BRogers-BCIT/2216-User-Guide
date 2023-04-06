@@ -31,6 +31,7 @@ Please have the following requirements before reading the instructions:
 ## Warnings Messages
 
 Throughout the user guide documentation, we will include and utilize blocks of messages to inform you of any critical information.
+
 !!! alert
     Please read the alerts before proceeding onto the next step to avoid any mistakes
 
